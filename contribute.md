@@ -27,19 +27,19 @@ Note that the three hyphens are required and are used to enclose the YAML.
 
 > Note that strings only need to be in quotes in some cases, see below
 
-**layout**
+##### layout
 Required: Yes<br>
 Must be "company_profile"
 
-**company**
+##### company
 Required: Yes<br>
 The company name
 
-**overview**
+##### overview
 Required: No<br>
 Displays when browsing company listings.
 
-**company_size**
+##### company_size
 Required: Yes<br>
 Possible Values:
 
@@ -47,7 +47,7 @@ Possible Values:
 - "Medium": 51-250 employees
 - "Large": 250+ employees
 
-**stack**
+##### stack
 Required: No<br>
 An array of languages, frameworks, libraries or other technologies the company hires for. You can list any technologies you want, but only "Node", "Python", "Ruby", "PHP", ".NET", "Java", and "JavaScript" are searchable. Also note that those values are case sensitive being found in the search feature. Arrays in YAML are formatted as follows:
 
@@ -55,7 +55,7 @@ An array of languages, frameworks, libraries or other technologies the company h
 stack: [JavaScript, Node]
 ```
 
-**region**
+##### region
 Required: No<br>
 An array of Phoenix regions. Below is an example of a YAML array with all possible regions:
 
@@ -70,7 +70,7 @@ For one region, you can either make an array with one value `[east]` or just lis
 Note that these values are case sensitive for being found in the search feature
 
 
-**dev_team_size**
+##### dev_team_size
 Required: No<br>
 Possible Values: Any numeric value (no commas)
 
