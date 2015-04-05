@@ -6,7 +6,7 @@ lng: -111.55549
 company_size: "Large"
 stack: [Java, JavaScript]
 region: East
-city: [Phoenix, Tempe]
+city: [Tempe]
 client_work: false
 recruiter: false
 overview: "Insurance"

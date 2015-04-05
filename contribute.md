@@ -72,7 +72,24 @@ Required: No
 
 
 #### stack
-An array of languages, frameworks, libraries or other technologies the company hires for. You can list any technologies you want, but only "Node", "Python", "Ruby", "PHP", ".NET", "Java", and "JavaScript" are searchable. Also note that those values are case sensitive being found in the search feature. Arrays in YAML are formatted as follows:
+An array of languages, frameworks, libraries or other technologies the company hires for. You can list any technologies you want, but only the following languages have official search features:
+
+- JavaScript
+- Node
+- Python
+- Ruby
+- PHP
+- C#
+- ASP.NET
+- Java
+- C++
+- Go
+- Objective-C
+- Swift
+
+> For these languages please use the exact case-sensitivity as this list in order for the search feature to work. (It's a Jekyll thing)
+
+Arrays in YAML are formatted as follows:
 
 ```
 stack: [JavaScript, Node]

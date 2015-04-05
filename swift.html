@@ -1,0 +1,11 @@
+---
+layout: browse_companies
+title: "Companies that use Swift"
+permalink: /swift/
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% if page.stack contains 'swift' %}
+        {% include browse_companies.html %}
+    {% endif %}
+{% endif %}{% endfor %}

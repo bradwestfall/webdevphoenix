@@ -18,3 +18,5 @@ The site was created and is maintained by [@bradwestfall](http://twitter.com/bra
 
 - Google Maps
 - Charts
+- Comments
+- Job Listings (Maybe)

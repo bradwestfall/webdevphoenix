@@ -1,11 +1,11 @@
 ---
 layout: browse_companies
-title: "Companies that use .NET"
-permalink: /dotNET/
+title: "Companies that use C#"
+permalink: /c-sharp/
 ---
 
 {% for page in site.pages %}{% if page.company %}
-    {% if page.stack contains '.NET' %}
+    {% if page.stack contains 'C#' %}
         {% include browse_companies.html %}
     {% endif %}
 {% endif %}{% endfor %}
