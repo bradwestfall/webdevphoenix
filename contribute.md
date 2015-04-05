@@ -22,3 +22,10 @@ company_size: "Small"
 ```
 
 Note that the three hyphens are required and are used to enclose the YAML.
+
+#### Required Fields
+
+field|required|type|values
+-----|--------|----|------
+layout|yes||Must be exactly "company_profile"
+
