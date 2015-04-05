@@ -1,5 +1,5 @@
 ---
-layout: company_profile
+layout: "company_profile"
 company: "GoDaddy"
 company_size: "Large"
 stack: [Node, JavaScript]

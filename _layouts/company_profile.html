@@ -43,7 +43,7 @@ layout: default
     {% if page.content != '' %}
     <div class="description">
         <h2>Profile</h2>
-        {{ content | truncatewords: 500 }}
+        {{ content | strip_html | truncatewords: 500 }}
     </div>
     {% endif %}
 

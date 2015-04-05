@@ -1,5 +1,5 @@
 ---
-layout: company_profile
+layout: "company_profile"
 company: "State Farm"
 lat: 33.25492
 lng: -111.55549

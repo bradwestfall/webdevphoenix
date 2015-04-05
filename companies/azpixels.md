@@ -1,21 +1,21 @@
 ---
 layout: company_profile
-company: "AZPixels"
-overview: "Web Development and Consulting"
+company: AZPixels
+overview: Web Development and Consulting
 lat: 33.380965
 lng: -111.99836
-company_size: "Small"
+company_size: Small
 dev_team_size: 1
 stack: [JavaScript, jQuery, PHP, MySQL]
 region: East
 client_work: true
 recruiter: false
 startup: false
-website: "http://azpixels.com"
-job_listings: "http://cohoots.com/jobs"
+website: http://azpixels.com
+job_listings: http://cohoots.com/jobs
 twitter: "@bradwestfall"
-github: "http://github.com/bradwestfall"
-fa: "fa-css3"
+github: http://github.com/bradwestfall
+fa: fa-css3
 ---
 
 AZPixels is a Web Applications & UI/UX development company. We build, consult, and maintain websites ranging from mom-&-pop shops to large-scale web applications.
