@@ -6,7 +6,7 @@ Adding a new company listing requires the creation of markdown files and then cr
 
 Create your company listing as `[company-name].md` inside the `/companies` folder. Note that the file name is required to be the company name and is required to have hyphens for spaces (and not real spaces) and all lowercase letters. See our [real listings](https://github.com/bradwestfall/webdevphoenix/tree/master/companies) as an example.
 
-Start the file with YAML variables. Note that the three hyphens are required and are used to enclose the YAML. Below the YAML section goes your company description. Use two hard returns to distinguish paragraphs as seen with the greek text below
+Start the file with YAML variables. Note that the three hyphens are required and are used to enclose the YAML. Under the YAML section goes your company description. Use two hard returns to distinguish paragraphs as seen with the greek text below
 
 ```
 ---
@@ -33,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum, numq
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad numquam quaerat assumenda inventore similique.
 ```
 
-The content area below the YAML is markdown. Links are allowed but no other markup will be accepted. Content will be truncated at 500 characters.
+The company description area (below the YAML) is markdown format. Links are allowed but no other markup/markdown will be accepted. Content will be truncated at 500 characters.
 
 
 ### YAML Variables
@@ -51,7 +51,7 @@ Required: Yes
 
 
 #### overview
-A short description for the company on the browse listings page.<br>
+A short description for the company on the browse listings page. Because of the available space the content will be placed in, it's recommend to keep the overview less than 100 characters. Long overviews will get an ellipsis<br>
 Required: No
 
 
