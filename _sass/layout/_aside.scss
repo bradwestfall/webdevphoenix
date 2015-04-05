@@ -1,5 +1,9 @@
 aside {
     @include vertical-rhythm($gutter);
+
+    .speech.about {
+        display: block;
+    }
     
     nav {
         a {
