@@ -6,6 +6,8 @@ See our [real listings](https://github.com/bradwestfall/webdevphoenix/tree/maste
 
 ### Example Company Listing
 
+Create your company listing as `[company-name].md` inside the `/companies` folder. Note that your company name is required to have hyphens for spaces (and not real spaces).
+
 Start the company listing with YAML variables. Note that the three hyphens are required and are used to enclose the YAML. Below the YAML section goes your company description. Use two hard returns to distinguish paragraphs as seen with the greek text below
 
 ```
