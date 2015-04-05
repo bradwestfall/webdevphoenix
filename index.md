@@ -9,6 +9,8 @@ layout: default
     </div>
 </header>
 
-This site was launched on **Easter Sunday 2015**. It's an easy way to see how many companies in Phoenix hire for web dev. Help me get it filled with companies this first week.
+This site was launched on **Easter Sunday 2015**. It's an easy way to see how many companies in Phoenix hire for web dev. It doesn't matter if the companies are currently hiring or not. It's just a list of everyone who might.
+
+Help me get it filled with companies this first week.
 
 See the [Contribute Page](https://github.com/bradwestfall/webdevphoenix/blob/master/contribute.md)
