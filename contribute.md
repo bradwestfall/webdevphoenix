@@ -17,6 +17,18 @@ layout: company_profile
 company: XYZ Company
 overview: Web Development and Consulting
 company_size: Small
+dev_team_size: 10
+stack: [JavaScript, Node]
+region: [East]
+lat: 33.4471181
+lng: -112.0736661
+client_work: true
+recruiter: false
+startup: false
+website: http://example.com
+job_listings: http://example.com/jobs
+twitter: "@example"
+fa: fa-cloud
 ---
 ```
 
@@ -52,6 +64,11 @@ Possible Values:
 Required: Yes
 
 
+#### dev_team_size
+Possible Values: Any numeric value (no commas)<br>
+Required: No
+
+
 #### stack
 An array of languages, frameworks, libraries or other technologies the company hires for. You can list any technologies you want, but only "Node", "Python", "Ruby", "PHP", ".NET", "Java", and "JavaScript" are searchable. Also note that those values are case sensitive being found in the search feature. Arrays in YAML are formatted as follows:
 
@@ -61,21 +78,18 @@ stack: [JavaScript, Node]
 
 Required: No
 
+
 #### region
 An array of Phoenix regions. Below is an example of a YAML array with all possible regions. Note that these are case sensitive for being found in the search feature
 
 ```
-region: [north, east, west, central]
+region: [North, East, West, Central]
 ```
 
 For one region, you can either make an array with one value `[east]` or just list the value `east`
 
 > South is missing on purpose. Nobody really says "the South Valley" around here :)
 
-Required: No
-
-#### dev_team_size
-Possible Values: Any numeric value (no commas)<br>
 Required: No
 
 
@@ -104,8 +118,6 @@ Is the company a startup? Value must be `true` or `false`<br>
 Required: No
 
 
-
-
 #### website
 The full URL of the company<br>
 Required: No
@@ -117,10 +129,10 @@ Required: No
 
 
 #### twitter
-The twitter handle must use double quotes because of the `@` symbol messing with Jekyll
+The twitter handle must use double quotes because of the `@` symbol messing with Jekyll<br>
 Required: No
 
 
 #### fa
-A [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) class name. Pick any icon that you think best represents your company. This is just for fun.
+A [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) class name. Pick any icon that you think best represents your company. This is just for fun.<br>
 Required: No
