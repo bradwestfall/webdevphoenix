@@ -2,11 +2,9 @@
 
 Adding a new company listing requires the creation of markdown files and then creating a pull request. Create the markdown ".md" file in the `/companies` folder. Files must have YAML fields at the top of the file (as documented below)
 
-See our [real listings](https://github.com/bradwestfall/webdevphoenix/tree/master/companies) as an example
-
 ### Example Company Listing
 
-Create your company listing as `[company-name].md` inside the `/companies` folder. Note that your company name is required to have hyphens for spaces (and not real spaces).
+Create your company listing as `[company-name].md` inside the `/companies` folder. Note that your company name is required to have hyphens for spaces (and not real spaces). See our [real listings](https://github.com/bradwestfall/webdevphoenix/tree/master/companies) as an example.
 
 Start the company listing with YAML variables. Note that the three hyphens are required and are used to enclose the YAML. Below the YAML section goes your company description. Use two hard returns to distinguish paragraphs as seen with the greek text below
 
