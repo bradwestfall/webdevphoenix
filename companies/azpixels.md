@@ -14,7 +14,6 @@ startup: false
 website: http://azpixels.com
 job_listings: http://cohoots.com/jobs
 twitter: "@bradwestfall"
-github: http://github.com/bradwestfall
 fa: fa-css3
 ---
 

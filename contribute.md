@@ -90,20 +90,37 @@ Required: No
 
 
 #### client_work
+Does the company build websites or web apps for others? Value must be `true` or `false`<br>
+Required: No
+
+
+#### recruiter
+Is the company a recruiter? Value must be `true` or `false`<br>
+Required: No
+
+
+#### startup
+Is the company a startup? Value must be `true` or `false`<br>
+Required: No
 
 
 
 
+#### website
+The full URL of the company<br>
+Required: No
 
 
+#### job_listings
+The URL where job postings can be found<br>
+Required: No
 
 
+#### twitter
+The twitter handle must use double quotes because of the `@` symbol messing with Jekyll
+Required: No
 
-client_work: true
-recruiter: false
-startup: false
-website: "http://azpixels.com"
-job_listings: "http://cohoots.com/jobs"
-twitter: "@bradwestfall"
-github: "http://github.com/bradwestfall"
-fa: "fa-css3"
+
+#### fa
+A [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) class name. Pick any icon that you think best represents your company. This is just for fun.
+Required: No
