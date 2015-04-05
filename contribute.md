@@ -17,6 +17,7 @@ company_size: Small
 dev_team_size: 10
 stack: [JavaScript, Node]
 region: [East]
+city: [Tempe, Scottsdale]
 lat: 33.4471181
 lng: -112.0736661
 client_work: true
@@ -24,7 +25,7 @@ recruiter: false
 startup: false
 website: http://example.com
 job_listings: http://example.com/jobs
-twitter: "@example"
+twitter: johndoe
 fa: fa-cloud
 ---
 
@@ -38,7 +39,7 @@ The company description area (below the YAML) is markdown format. Links are allo
 
 ### YAML Variables
 
-> Note that strings only need to be in quotes in some cases, see below
+> Note that quote marks for strings are optional in YAML but might be required for some values
 
 #### layout
 Must be "company_profile"<br>
@@ -51,7 +52,7 @@ Required: Yes
 
 
 #### overview
-A short description for the company on the browse listings page. Because of the available space the content will be placed in, it's recommend to keep the overview less than 100 characters. Long overviews will get an ellipsis<br>
+A short description of the company for the browse listings page. Because of the available space the content will be placed in, it's recommend to keep the overview less than 100 characters. Long overviews will get an ellipsis<br>
 Required: No
 
 
@@ -94,6 +95,16 @@ For one region, you can either make an array with one value `[east]` or just lis
 Required: No
 
 
+#### city
+An array of cities that you have offices in. This just gets displayed on the profile page. An example would be:
+
+```
+city: [Tempe, Scottsdale]
+```
+
+Required: No
+
+
 #### lat
 Latitude, if provided with `lng`, the profile will show in our maps<br>
 Required: No
@@ -130,7 +141,7 @@ Required: No
 
 
 #### twitter
-The twitter handle must use double quotes because of the `@` symbol messing with Jekyll<br>
+The twitter handle the company wants to use for contact or jobs purposes. Note that this is without the `@` sign<br>
 Required: No
 
 

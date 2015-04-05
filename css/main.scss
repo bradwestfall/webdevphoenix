@@ -24,7 +24,6 @@
 // Primary Layout Regions
 @import "layout/scafolding";
 @import "layout/aside";
-@import "layout/main";
 
 // Sub Layout Regions
 @import "layout/company-profile";
@@ -40,3 +39,24 @@
 @import "components/speech";
 @import "components/details";
 
+
+
+
+
+// #map, .primary-content {
+//     -webkit-box-shadow: 0 0 15px -5px #000;
+//     box-shadow: 0 0 15px -5px #000;
+// }
+
+// #map {
+//     width: 100%;
+//     height: 100px;
+//     background-color: #CADFAA;
+
+//     height: 60vh;
+//     min-height: 300px;
+//     max-height: 500px;
+//     border-radius: 4px;
+
+//     display: none;
+// }

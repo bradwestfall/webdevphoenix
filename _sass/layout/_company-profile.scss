@@ -1,13 +1,23 @@
 .company-profile {
+    @include vertical-rhythm($gutter);
+
+    .content-header {
+        .twitter i {
+            margin-right: 0.5em;
+        }
+    }
 
     .details {
         @include vertical-rhythm(0.5 * $gutter);
         padding: $gutter;
         border-radius: 10px;
-        float: right;
-        width: 50%;
         background-color: #D7F2BE;
         color: #687D54;
+        
+        @include wider-than(900px) {
+            float: right;
+            width: 50%;   
+        }
     }
 
     .primary {

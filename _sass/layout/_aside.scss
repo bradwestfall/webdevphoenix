@@ -1,6 +1,6 @@
 aside {
     @include vertical-rhythm($gutter);
-
+    
     nav {
         a {
             font-size: 0.8em;
@@ -15,10 +15,13 @@ aside {
 
     > footer {
         border-top: 1px solid $line-color;
-        margin-top: 4em;
+        margin-top: 3em;
+        padding-top: 0.5em;
+        text-align: center;
+
         a {
             display: inline-block;
-            padding: 5px 15px 5px 0;
+            padding: 3px 5px;
             color: #aaa;
             font-size: 0.8em;
             &:hover {
