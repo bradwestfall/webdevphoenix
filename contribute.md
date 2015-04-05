@@ -9,7 +9,9 @@ Adding a new company listing requires the creation of markdown files and then cr
 Create a markdown ".md" file in the `/companies` folder. Files must have YAML fields at the top of the file. Below the YAML fields you can type up to 500 characters of plain-text content (for your profile content)
 
 
-### Example YAML
+### Example Listing
+
+Start the company listing with YAML variables. Note that the three hyphens are required and are used to enclose the YAML. Below the YAML section goes your company description. Use two hard returns to distinguish paragraphs as seen with the greek text below
 
 ```
 ---
@@ -30,9 +32,13 @@ job_listings: http://example.com/jobs
 twitter: "@example"
 fa: fa-cloud
 ---
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum, numquam fugit vitae rerum omnis, provident, consequatur, velit reprehenderit quas quis quibusdam deserunt quam eum assumenda! Natus voluptatibus, veniam voluptas?
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad numquam quaerat assumenda inventore similique ipsam eius modi illum libero, quis, sapiente eaque laboriosam nobis consequuntur magni sunt ab natus, molestias!
 ```
 
-Note that the three hyphens are required and are used to enclose the YAML.
+
 
 
 ### YAML Fields
