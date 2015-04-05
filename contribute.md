@@ -2,6 +2,7 @@
 
 Adding a new company listing requires the creation of markdown files and then creating a pull request. Create the markdown ".md" file in the `/companies` folder. Files must have YAML fields at the top of the file (as documented below)
 
+See our [real listings](https://github.com/bradwestfall/webdevphoenix/tree/master/companies) as an example
 
 ### Example Company Listing
 
