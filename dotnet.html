@@ -1,0 +1,11 @@
+---
+layout: browse_companies
+title: "Companies that use .NET"
+permalink: /dotNET/
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% if page.stack contains '.NET' %}
+        {% include browse_companies.html %}
+    {% endif %}
+{% endif %}{% endfor %}

@@ -1,0 +1,11 @@
+---
+layout: browse_companies
+title: "Companies in the East Valley"
+permalink: /east-valley/
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% if page.region contains 'East' %}
+        {% include browse_companies.html %}
+    {% endif %}
+{% endif %}{% endfor %}

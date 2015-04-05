@@ -1,0 +1,8 @@
+---
+layout: browse_companies
+title: "All Companies"
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% include browse_companies.html %}
+{% endif %}{% endfor %}

@@ -1,0 +1,79 @@
+// ****************************************
+//   Inherited Syles
+// ****************************************
+
+// See this explanation for details
+// https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+
+html {
+    box-sizing: border-box;
+    color: $default-text-color;
+    font: $default-font-size $default-font-family;
+    font-weight: $default-font-weight;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit
+}
+
+
+// ****************************************
+//   Body
+// ****************************************
+
+body {
+    background: #0182C3 url('/images/bg.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+// ****************************************
+//   Common tags 
+// ****************************************
+
+a {
+    color: $default-anchor-color;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: Allan;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+
+em {
+    font-style: italic
+}
+
+strong {
+    font-weight: 600;
+}
+
+
+// ****************************************
+//   Buttons 
+// ****************************************
+
+
+a.button {
+    display: inline-block;
+    border: none; // reset
+    border-radius: 5px;
+    color: #fff;
+    background-color: $green;
+    padding: 5px 10px;
+    -webkit-box-shadow: 3px 3px 0 0 #4D722B;
+    box-shadow: 3px 3px 0 0 #4D722B;
+}
+
+button {
+    @extend a.button;
+}

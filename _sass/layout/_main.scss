@@ -1,0 +1,14 @@
+main {
+    @include vertical-rhythm($gutter);
+
+    > header {
+        position: relative;
+
+        .actions {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+    }
+}

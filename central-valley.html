@@ -1,0 +1,11 @@
+---
+layout: browse_companies
+title: "Companies in the North Valley"
+permalink: /central-valley/
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% if page.region contains 'Central' %}
+        {% include browse_companies.html %}
+    {% endif %}
+{% endif %}{% endfor %}

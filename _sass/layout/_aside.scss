@@ -1,0 +1,30 @@
+aside {
+    @include vertical-rhythm($gutter);
+
+    nav {
+        a {
+            font-size: 0.8em;
+            border: 1px solid $line-color;
+            display: inline-block;
+            padding: 3px 6px;
+            white-space: nowrap;
+            margin-top: 10px;
+            border-radius: 3px;
+        }
+    }
+
+    > footer {
+        border-top: 1px solid $line-color;
+        margin-top: 4em;
+        a {
+            display: inline-block;
+            padding: 5px 15px 5px 0;
+            color: #aaa;
+            font-size: 0.8em;
+            &:hover {
+                color: $default-anchor-color;
+            }
+        }
+    }
+
+}

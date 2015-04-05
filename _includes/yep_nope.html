@@ -1,0 +1,9 @@
+{% if include.input %}
+    Yep
+{% else %}
+    {% if include.input == false %}
+        Nope
+    {% else %}
+        n/a
+    {% endif %}
+{% endif %}

@@ -1,0 +1,40 @@
+.speech {
+    position: relative;
+    padding: 0px;
+    background: rgb(252, 197, 16);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: $gutter;
+    -webkit-box-shadow: 5px 5px 0 0 rgb(203, 119, 4);
+    box-shadow: 5px 5px 0 0 rgb(203, 119, 4);
+    color: #855D26;
+    font-size: 14pt;
+    margin-bottom: 25px; // extra space for triangle
+}
+
+.speech:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 10px 0;
+    border-color: rgb(252, 197, 16) transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: -10px;
+    left: 40px;
+}
+
+.speech:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 10px 0;
+    border-color: rgb(203, 119, 4) transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: -15px;
+    left: 45px;
+}

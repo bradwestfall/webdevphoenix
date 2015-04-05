@@ -1,0 +1,11 @@
+---
+layout: browse_companies
+title: "Companies that use Ruby"
+permalink: /ruby/
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% if page.stack contains 'Ruby' %}
+        {% include browse_companies.html %}
+    {% endif %}
+{% endif %}{% endfor %}

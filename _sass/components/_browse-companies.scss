@@ -1,0 +1,39 @@
+
+
+.browse-company {
+    @extend %clearfix;
+    border-bottom: 1px solid $line-color;
+    padding: 10px;
+
+    > i {
+        float: left;
+        font-size: 3.2em;
+        margin-right: 10px;
+        color: #ddd;
+    }   
+
+    > div {
+        margin-left: 70px;
+    }
+
+    .company {
+        font-weight: 600;
+        display: inline-block;
+        vertical-align: bottom;
+        font-size: 1.3em
+    }
+
+    .description {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        vertical-align: bottom;
+        width: 100%;
+        font-size: 0.8em;
+    }
+}
+
+
+
+

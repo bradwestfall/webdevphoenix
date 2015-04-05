@@ -1,0 +1,11 @@
+---
+layout: browse_companies
+title: "Companies in the West Valley"
+permalink: /west-valley/
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% if page.region contains 'West' %}
+        {% include browse_companies.html %}
+    {% endif %}
+{% endif %}{% endfor %}

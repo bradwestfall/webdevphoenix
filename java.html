@@ -1,0 +1,11 @@
+---
+layout: browse_companies
+title: "Companies that use Java"
+permalink: /java/
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% if page.stack contains 'Java' %}
+        {% include browse_companies.html %}
+    {% endif %}
+{% endif %}{% endfor %}

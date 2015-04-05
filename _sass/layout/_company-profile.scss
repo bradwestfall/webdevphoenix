@@ -1,0 +1,22 @@
+.company-profile {
+
+    .details {
+        @include vertical-rhythm(0.5 * $gutter);
+        padding: $gutter;
+        border-radius: 10px;
+        float: right;
+        width: 50%;
+        background-color: #D7F2BE;
+        color: #687D54;
+    }
+
+    .primary {
+        @include vertical-rhythm($gutter);
+    }
+
+    .description {
+        clear: both;
+        margin-top: $gutter;
+    }
+
+}

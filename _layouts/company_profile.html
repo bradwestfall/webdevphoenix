@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<h1>{{ page.company }}</h1>
+
+<div class="company-profile">
+
+    <div class="details">
+        <div><strong>Company Size:</strong><span>{{ page.company_size }}</span></div>
+        <div><strong>Dev Team Size:</strong><span>{{ page.dev_team_size }}</span></div>
+        <div><strong>City:</strong><span>{{ page.city | join:', ' }}</span></div>
+        <div><strong>Client Work:</strong><span>{% include yep_nope.html input=page.client_work %}</span></div>
+        <div><strong>Recruiter:</strong><span>{% include yep_nope.html input=page.recruiter %}</span></div>
+        <div><strong>Startup:</strong><span>{% include yep_nope.html input=page.startup %}</span></div>
+    </div>
+
+    <div class="primary">
+        
+        {% if page.website %}
+        <div class="website">
+            <h2>Site</h2>
+            <a href="{{ page.website }}">{{ page.website }}</a>
+        </div>
+        {% endif %}
+
+        {% if page.job_listings %}
+        <div class="job-listings">
+            <h2>Job Listings</h2>
+            <a href="{{ page.job_listings }}">{{ page.job_listings }}</a>
+        </div>
+        {% endif %}
+
+        {% if page.stack %}
+        <div class="stack">
+            <h2>Stack</h2>
+            {{ page.stack | join:', ' }}
+        </div>
+        {% endif %}
+
+    </div>
+
+    {% if page.content != '' %}
+    <div class="description">
+        <h2>Profile</h2>
+        {{ content | truncatewords: 500 }}
+    </div>
+    {% endif %}
+
+</div>

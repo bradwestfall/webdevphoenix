@@ -1,0 +1,11 @@
+---
+layout: browse_companies
+title: "Companies that use PHP"
+permalink: /php/
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% if page.stack contains 'PHP' %}
+        {% include browse_companies.html %}
+    {% endif %}
+{% endif %}{% endfor %}

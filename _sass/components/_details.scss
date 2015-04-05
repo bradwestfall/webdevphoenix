@@ -1,0 +1,14 @@
+.details {
+    > div {
+        @extend %clearfix;
+
+        > strong {
+            float: left;
+            display: block;
+        }
+        > span {
+            float: right;
+            display: block;
+        }
+    }
+}

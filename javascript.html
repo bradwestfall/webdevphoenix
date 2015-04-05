@@ -1,0 +1,11 @@
+---
+layout: browse_companies
+title: "Companies that use JavaScript (Front-End)"
+permalink: /javascript/
+---
+
+{% for page in site.pages %}{% if page.company %}
+    {% if page.stack contains 'JavaScript' %}
+        {% include browse_companies.html %}
+    {% endif %}
+{% endif %}{% endfor %}
