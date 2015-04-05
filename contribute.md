@@ -10,21 +10,6 @@ Create a markdown ".md" file in the `/companies` folder. Files must have YAML fi
 
 ### YAML Fields
 
-Below is an example of what YAML looks like with several fields:
-
-```
----
-layout: company_profile
-company: XYZ Company
-overview: Web Development and Consulting
-company_size: Small
----
-```
-
-Note that the three hyphens are required and are used to enclose the YAML.
-
-#### Required Fields
-
 > Note that strings only need to be in quotes in some cases, see below
 
 ##### layout
@@ -35,11 +20,11 @@ Must be "company_profile"
 Required: Yes<br>
 The company name
 
-##### overview
+#### overview
 Required: No<br>
 Displays when browsing company listings.
 
-##### company_size
+#### company_size
 Required: Yes<br>
 Possible Values:
 
@@ -47,7 +32,7 @@ Possible Values:
 - "Medium": 51-250 employees
 - "Large": 250+ employees
 
-##### stack
+#### stack
 Required: No<br>
 An array of languages, frameworks, libraries or other technologies the company hires for. You can list any technologies you want, but only "Node", "Python", "Ruby", "PHP", ".NET", "Java", and "JavaScript" are searchable. Also note that those values are case sensitive being found in the search feature. Arrays in YAML are formatted as follows:
 
@@ -55,7 +40,7 @@ An array of languages, frameworks, libraries or other technologies the company h
 stack: [JavaScript, Node]
 ```
 
-##### region
+#### region
 Required: No<br>
 An array of Phoenix regions. Below is an example of a YAML array with all possible regions:
 
@@ -70,7 +55,7 @@ For one region, you can either make an array with one value `[east]` or just lis
 Note that these values are case sensitive for being found in the search feature
 
 
-##### dev_team_size
+#### dev_team_size
 Required: No<br>
 Possible Values: Any numeric value (no commas)
 
@@ -83,7 +68,24 @@ Latitude and Longitude. If provided the profile will show in our maps
 
 
 
+### Example YAML
+
+```
 ---
+layout: company_profile
+company: XYZ Company
+overview: Web Development and Consulting
+company_size: Small
+---
+```
+
+Note that the three hyphens are required and are used to enclose the YAML.
+
+
+
+
+
+
 
 region: East
 client_work: true
@@ -94,4 +96,3 @@ job_listings: "http://cohoots.com/jobs"
 twitter: "@bradwestfall"
 github: "http://github.com/bradwestfall"
 fa: "fa-css3"
----
