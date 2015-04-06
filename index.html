@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<header class="content-header">
+    <h1>Welcome</h1>
+    <div class="actions">
+        <a href="/add-company" class="button add-company">Add a company</a>
+    </div>
+</header>
+
+<h2>I need your help!</h2>
+
+<p>
+    This site was launched on <strong>Easter Sunday 2015</strong>. It's an easy way to see how many companies in Phoenix hire for web dev. It doesn't matter if the companies are currently hiring or not. It's just a list of everyone who might.
+</p>
+
+<p>Help me get it filled with companies this first week.</p>
+
+<p>See the [Contribute Page](https://github.com/bradwestfall/webdevphoenix/blob/master/contribute.md)</p>
+
+<h2>All companies</h2>
+
+{% for page in site.pages %}{% if page.company %}
+    {% include browse_companies.html %}
+{% endif %}{% endfor %}
