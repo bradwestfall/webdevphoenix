@@ -16,3 +16,9 @@ This site was launched on **Easter Sunday 2015**. It's an easy way to see how ma
 Help me get it filled with companies this first week.
 
 See the [Contribute Page](https://github.com/bradwestfall/webdevphoenix/blob/master/contribute.md)
+
+## All companies
+
+{% for page in site.pages %}{% if page.company %}
+    {% include browse_companies.html %}
+{% endif %}{% endfor %}
