@@ -3,8 +3,8 @@ tag: company
 layout: company_profile
 company: AZPixels
 overview: Web Development and Consulting
-lat: 33.380965
-lng: -111.99836
+lat: 33.4479042
+lng: -112.0620954
 company_size: Small
 dev_team_size: 1
 stack: [JavaScript, jQuery, PHP, MySQL]
