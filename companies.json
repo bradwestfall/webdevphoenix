@@ -2,12 +2,11 @@
 layout: null
 ---
 [
-{% for page in site.pages %}{% if page.company %}
+{% for page in site.categories.company %}
     {
       "name": "{{ page.company }}",
       "lat": "{{ page.lat }}",
-      "lng": "{{ page.lng }}",
-      "url": "{{ page.url }}"
-    }{% if forloop.last %}{% else %},{% endif %}
-{% endif %}{% endfor %}
-] 
+      "lng": "{{ page.lng }}"
+    }{% if forloop.last == false %},{% endif %}
+{% endfor %}
+]

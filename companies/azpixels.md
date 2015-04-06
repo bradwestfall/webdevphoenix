@@ -1,4 +1,5 @@
 ---
+tag: company
 layout: company_profile
 company: AZPixels
 overview: Web Development and Consulting
