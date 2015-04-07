@@ -9,7 +9,7 @@ layout: default
     </div>
 </header>
 
-<div class="map"></div>
+<div class="map" {% if page.language %}data-language="{{ page.language }}"{% endif %} {% if page.region %}data-region="{{ page.region }}"{% endif %}></div>
 
 <div class="browse-companies">
     {{ content }}

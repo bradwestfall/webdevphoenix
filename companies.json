@@ -7,7 +7,9 @@ layout: null
       "name": "{{ page.company }}",
       "lat": "{{ page.lat }}",
       "lng": "{{ page.lng }}",
-      "url": "{{ page.url }}"
+      "url": "{{ page.url }}",
+      "region": "{{ page.region | join:',' }}",
+      "stack": "{{ page.stack | join:',' }}"
     },
 {% endif %}{% endfor %}
     {}
