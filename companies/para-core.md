@@ -9,7 +9,7 @@ region: East
 client_work: true
 recruiter: false
 startup: false
-http://www.paracore.com/
+site: http://www.paracore.com/
 ---
 
 The ParaCore team is an eclectic nerd herd that simply figures it out and gets it done. We come to work every day because we enjoy learning new things, solving problems and building cool stuff.
