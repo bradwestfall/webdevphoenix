@@ -15,7 +15,7 @@ startup: true
 website: https://gobold.com
 job_listings: https://gobold.com/careers
 twitter: BoldHQ
-fa: fa-globe
 ---
-
+Bold Stack enables banks to leverage digital currencies to increase efficiencies and lower costs, while opening up internal systems to outside development.  
+  
 Bold Payouts enables Marketplace companies to payout worldwide using a consistant API, from Sortcodes and Routing Numbers to Compliance background checks and Tax reporting everything is handled by Bold.
