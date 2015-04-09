@@ -11,4 +11,5 @@ recruiter: false
 startup: false
 website: http://www.swiftpage.com/
 job_listings: http://www.jobs.net/jobs/swiftpage/en-us/?IPath=TNCNTPG
+fa: fa-pencil
 ---

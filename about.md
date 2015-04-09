@@ -20,3 +20,7 @@ The site was created and is maintained by [@bradwestfall](http://twitter.com/bra
 - Charts
 - Comments
 - Job Listings (Maybe)
+
+## Thank you
+
+Special thanks to [Kris Faultner](https://github.com/kfaultner) for the help with adding a bunch of companies
