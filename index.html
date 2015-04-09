@@ -21,6 +21,8 @@ layout: default
 
 <div class="map"></div>
 
-{% for page in site.pages %}{% if page.company %}
-    {% include browse_companies.html %}
-{% endif %}{% endfor %}
+<div class="browse-companies">
+    {% for page in site.pages %}{% if page.company %}
+        {% include browse_companies.html %}
+    {% endif %}{% endfor %}
+</div>
