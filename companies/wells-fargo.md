@@ -11,4 +11,5 @@ recruiter: false
 startup: false
 website: https://www.wellsfargo.com/
 job_listings: https://www.wellsfargo.com/about/careers/
+fa: fa-bank
 ---
