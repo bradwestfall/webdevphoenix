@@ -5,6 +5,7 @@ overview: We are a custom software design & development company.
 lat: 33.44794
 lng: -112.059263
 company_size: Large
+dev_team_size: Varies by project need
 region: [Central]
 city: [Phoenix, Minneapolis, Chicago, Kansas City]
 stack: [Technology Agnostic]
