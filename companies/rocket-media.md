@@ -18,4 +18,4 @@ twitter: rocketmedia
 fa: fa-rocket
 ---
 
-We are a web design/development and internet marketing agency that provides unique, useful, and creative services for mid-sized businesses. We're split down the middle when it comes to the Oxford Comma, but we all agree on four spaces instead of tabs.
+We are a web design/development and internet marketing agency that provides unique, useful, and creative services for mid-sized businesses. We're split down the middle when it comes to the Oxford Comma, but we all prefer Star Trek to Star Wars.
