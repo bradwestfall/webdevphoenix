@@ -1,17 +1,25 @@
 ---
-tag: company
 layout: company_profile
 company: Nextiva
 overview: Simplifying Business Communication
-lat: 33.5115131
-lng: -111.8938315
-stack: [Java]
-region: [East, North]
-client_worl: false
+company_size: Medium
+dev_team_size: fibonacci(8)
+stack: [JavaScript, Python, Java, C#, PHP, Go, React, jQuery, Spring MVC, Pyramid, SQL]
+region: [South East]
+city: [Scottsdale]
+lat: 33.5100504
+lng: -111.8911213
+client_work: false
 recruiter: false
 startup: false
-website: http://nextiva.com
-job_listings: http://www.nextiva.com/company/careers.html
+website: http://www.nextiva.com
+job_listings: http://www.nextiva.com/careers
+twitter: https://twitter.com/nextiva
+fa: fa-cloud
 ---
 
-Nextiva is more than just a cloud-based phone service provider. We're dedicated to helping you run your business efficiently and profitably – from anywhere, anytime. Our team has a "work hard, play hard" attitude, which means we love to have fun, yet we're passionate about our jobs and delivering your business with exceptional service.
+Move beyond your comfort zone.  Surround yourself with forward thinking individuals.
+
+Having outgrown four offices and counting, we are the fastest growing technology firm in Arizona; on pace to double in size in the next two years.
+
+Join a team that is building cloud-based phone and fax communication systems along with web-based conferencing and collaboration tools for businesses using a diverse arsenal of technologies.  Be a part of innovative change.
