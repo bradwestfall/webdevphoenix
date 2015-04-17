@@ -14,7 +14,7 @@ recruiter: false
 startup: false
 website: http://www.nextiva.com
 job_listings: http://www.nextiva.com/careers
-twitter: https://twitter.com/nextiva
+twitter: nextiva
 fa: fa-cloud
 ---
 
