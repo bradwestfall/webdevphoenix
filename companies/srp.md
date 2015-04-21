@@ -11,5 +11,6 @@ recruiter: false
 startup: false
 website: https://www.srpnet.com/
 job_listings: http://www.srpnet.com/jobs/default.aspx
+twitter: SRPconnect
 fa: fa-bolt
 ---
