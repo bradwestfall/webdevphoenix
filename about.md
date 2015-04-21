@@ -21,6 +21,12 @@ The site was created and is maintained by [@bradwestfall](http://twitter.com/bra
 - Comments
 - Job Listings (Maybe)
 
+## Contact
+
+For issues with the site. Please [Submit and Issue on GitHub](https://github.com/bradwestfall/webdevphoenix/issues)
+
+For any other inquiries, please reach me [@bradwestfall](http://twitter.com/bradwestfall)
+
 ## Thank you
 
 Special thanks to [Kris Faultner](https://github.com/kfaultner) for the help with adding a bunch of companies

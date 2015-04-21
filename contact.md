@@ -1,10 +1,8 @@
 ---
 layout: default
-permalink: /contact/
+permalink: /jobs/
 ---
 
-<h1>Contact</h1>
+<h1>Jobs</h1>
 
-For issues with the site. Please [Submit and Issue on GitHub](https://github.com/bradwestfall/webdevphoenix/issues)
-
-For any other inquiries, please reach me [@bradwestfall](http://twitter.com/bradwestfall)
+At this point, webdevphoenix won't be hosting jobs
