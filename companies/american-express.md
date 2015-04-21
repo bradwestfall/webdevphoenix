@@ -14,5 +14,5 @@ startup: false
 website: https://americanexpress.com
 job_listings: https://careers.americanexpress.com/
 twitter: AmericanExpress
-fa: cc-amex
+fa: fa-cc-amex
 ---
