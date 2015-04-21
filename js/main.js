@@ -17,7 +17,7 @@ $(function() {
                   div: mapElement,
                   lat: 33.4479042,
                   lng: -112.0620954,
-                  zoom: 11
+                  zoom: 9
                 });
 
                 // Plot
