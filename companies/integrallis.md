@@ -13,8 +13,7 @@ client_work: true
 recruiter: false
 startup: false
 website: http://integrallis.com
-job_listings: -
-twitter: @integrallis
+twitter: integrallis
 fa: fa-connectdevelop
 ---
 
