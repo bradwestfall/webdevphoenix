@@ -17,3 +17,6 @@ job_listings: -
 twitter: @integrallis
 fa: fa-connectdevelop
 ---
+
+
+We build functional, fast and beautiful applications in a test-driven way.
