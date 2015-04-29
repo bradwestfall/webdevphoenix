@@ -76,3 +76,11 @@ a.button {
 button {
     @extend a.button;
 }
+
+
+::selection {
+  background: #fcc510;
+}
+::-moz-selection {
+  background: #fcc510;
+}
