@@ -12,6 +12,6 @@ stack: [Javascript, PHP, SQL, C#, Node]
 client_work: false
 recruiter: false
 startup: false
-website: https://www.tagpay.com.com/
+website: https://www.tagpay.com
 twitter: TAGEmployrSrvs
 ---
