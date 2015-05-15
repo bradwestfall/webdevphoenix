@@ -30,7 +30,7 @@ $(function() {
              */
             plot: function() {
                 var self = this;
-                $.get('/api/1.0/companies', function(data) {
+                $.get('/companies.json', function(data) {
                     
                     // An array of markers
                     var markers = [];
@@ -43,8 +43,8 @@ $(function() {
                         if (!company.lat || !company.lng) continue;
 
                         // Only plot companies that match the region or language
-                        if (self.language && company.stack.indexOf(self.language) < 0) continue;
-                        if (self.region && company.region.indexOf(self.region) < 0) continue;
+                        if (self.language && company.stack.split(',').indexOf(self.language) < 0) continue;
+                        if (self.region && company.region.split(',').indexOf(self.region) < 0) continue;
 
                         // Create a marker object
                         markers.push({
@@ -64,7 +64,7 @@ $(function() {
                     // Add the markers to GMaps
                     self.gMap.addMarkers(markers);
 
-                }, 'json');
+                });
             }
 
         }
