@@ -43,8 +43,8 @@ $(function() {
                         if (!company.lat || !company.lng) continue;
 
                         // Only plot companies that match the region or language
-                        if (self.language && company.stack.split(',').indexOf(self.language) < 0) continue;
-                        if (self.region && company.stack.split(',').indexOf(self.region) < 0) continue;
+                        if (self.language && company.stack.indexOf(self.language) < 0) continue;
+                        if (self.region && company.region.indexOf(self.region) < 0) continue;
 
                         // Create a marker object
                         markers.push({

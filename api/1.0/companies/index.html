@@ -19,9 +19,30 @@
 			"size": "{{ page.company_size }}",
 			"devteam": "{{ page.dev_team_size }}",
 			"overview": "{{ page.overview }}",
-			"region": "{{ page.region | join:',' }}",
-			"stack": "{{ page.stack | join:',' }}",
-			"city": "{{ page.city | join:',' }}"
+			"region": [
+				{% capture regionArray %}
+					{% for area in page.region %}
+						, "{{area}}"
+					{% endfor %}
+				{% endcapture%}
+				{{ regionArray | remove_first: ',' }}
+			],
+			"stack": [
+				{% capture stackArray %}
+					{% for language in page.stack %}
+						, "{{language}}"
+					{% endfor %}
+				{% endcapture%}
+				{{ stackArray | remove_first: ',' }}
+			],
+			"city": [
+				{% capture cityArray %}
+					{% for city in page.city %}
+						, "{{city}}"
+					{% endfor %}
+				{% endcapture%}
+				{{ cityArray | remove_first: ',' }}
+			]
 	    }
 	{% endif %}{% endfor %}
 ]
