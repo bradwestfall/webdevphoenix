@@ -19,28 +19,19 @@
 				"devteam": "{{ page.dev_team_size }}",
 				"overview": "{{ page.overview }}",
 				"region": [
-					{% capture regionArray %}
-						{% for area in page.region %}
-							, "{{area}}"
-						{% endfor %}
-					{% endcapture%}
-					{{ regionArray | remove_first: ',' }}
+					{% for area in page.region %}
+						"{{area}}"{% if forloop.last %}{% else %}, {% endif %}
+					{% endfor %}
 				],
 				"stack": [
-					{% capture stackArray %}
-						{% for language in page.stack %}
-							, "{{language}}"
-						{% endfor %}
-					{% endcapture%}
-					{{ stackArray | remove_first: ',' }}
+					{% for language in page.stack %}
+						"{{language}}"{% if forloop.last %}{% else %}, {% endif %}
+					{% endfor %}
 				],
 				"city": [
-					{% capture cityArray %}
-						{% for city in page.city %}
-							, "{{city}}"
-						{% endfor %}
-					{% endcapture%}
-					{{ cityArray | remove_first: ',' }}
+					{% for city in page.city %}
+						"{{city}}"{% if forloop.last %}{% else %}, {% endif %}
+					{% endfor %}
 				]
 		    }
 		{% endif %}{% endfor %}
