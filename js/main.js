@@ -30,8 +30,8 @@ $(function() {
              */
             plot: function() {
                 var self = this;
-                $.get('/companies.json', function(data) {
-
+                $.get('/api/1.0/companies', function(data) {
+                    
                     // An array of markers
                     var markers = [];
 
@@ -64,7 +64,7 @@ $(function() {
                     // Add the markers to GMaps
                     self.gMap.addMarkers(markers);
 
-                });
+                }, 'json');
             }
 
         }

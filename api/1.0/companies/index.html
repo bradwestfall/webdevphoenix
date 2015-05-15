@@ -1,0 +1,30 @@
+---
+---
+
+{% capture companies %}
+[
+	{% for page in site.pages %}{% if page.company %}
+	    ,{
+			"name": "{{ page.company }}",
+			"lat": "{{ page.lat }}",
+			"lng": "{{ page.lng }}",
+			"url": "{{ page.url }}",
+			"startup": "{{ page.startup }}",
+			"faicon": "{{ page.fa }}",
+			"clientwork": "{{ page.client_work }}",
+			"twitter": "{{ page.twitter }}",
+			"website": "{{ page.website }}",
+			"careersite": "{{ page.job_listings }}",
+			"recruiter": "{{ page.recruiter }}",
+			"size": "{{ page.company_size }}",
+			"devteam": "{{ page.dev_team_size }}",
+			"overview": "{{ page.overview }}",
+			"region": "{{ page.region | join:',' }}",
+			"stack": "{{ page.stack | join:',' }}",
+			"city": "{{ page.city | join:',' }}"
+	    }
+	{% endif %}{% endfor %}
+]
+{% endcapture %}
+
+{{ companies | remove_first: ','}}
