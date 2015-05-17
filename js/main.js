@@ -31,7 +31,7 @@ $(function() {
             plot: function() {
                 var self = this;
                 $.get('/companies.json', function(data) {
-
+                    
                     // An array of markers
                     var markers = [];
 
@@ -44,7 +44,7 @@ $(function() {
 
                         // Only plot companies that match the region or language
                         if (self.language && company.stack.split(',').indexOf(self.language) < 0) continue;
-                        if (self.region && company.stack.split(',').indexOf(self.region) < 0) continue;
+                        if (self.region && company.region.split(',').indexOf(self.region) < 0) continue;
 
                         // Create a marker object
                         markers.push({

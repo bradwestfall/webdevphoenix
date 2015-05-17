@@ -1,0 +1,50 @@
+[
+    {
+        "language": "javascript",
+        "title": "JavaScript (Front-End)"
+    },
+    {
+        "language": "node",
+        "title": "Node"
+    },
+    {
+        "language": "python",
+        "title": "Python"
+    },
+    {
+        "language": "ruby",
+        "title": "Ruby"
+    },
+    {
+        "language": "php",
+        "title": "PHP"
+    },
+    {
+        "language": "c-sharp",
+        "title": "C#"
+    },
+    {
+        "language": "asp",
+        "title": "ASP.NET"
+    },
+    {
+        "language": "java",
+        "title": "Java"
+    },
+    {
+        "language": "c-plus-plus",
+        "title": "C++"
+    },
+    {
+        "language": "go",
+        "title": "Go"
+    },
+    {
+        "language": "objective-c",
+        "title": "Objective-C"
+    },
+    {
+        "language": "swift",
+        "title": "Swift"
+    }
+]
