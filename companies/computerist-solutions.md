@@ -3,8 +3,8 @@ tag: company
 layout: company_profile
 company: ComputeristSolutions
 overview: Web & Mobile Development and Consulting
-lat: 33.448213
-lng: -112.059274
+lat: 33.4154808
+lng: -111.8355988
 company_size: Small
 dev_team_size: 1
 stack: [JavaScript, jQuery, Ruby, Rails, Android, .Net]
