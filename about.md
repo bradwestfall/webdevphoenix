@@ -29,4 +29,4 @@ For any other inquiries, please reach me [@bradwestfall](http://twitter.com/brad
 
 ## Thank you
 
-Special thanks to [Kris Faultner](https://github.com/kfaultner) for the help with adding a bunch of companies
+Special thanks to [Kris Faultner](https://github.com/kfaultner) and [David Stevens](https://github.com/davidstevens37) for all the extra help.
