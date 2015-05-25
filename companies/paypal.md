@@ -1,7 +1,7 @@
 ---
 layout: company_profile
 company: "PayPal"
-overview: "An American worldwide online payments system and subsidiary of eBay. Online money transfers serve as electronic alternatives to traditional paper methods like checks and money orders."
+overview: "Online payments system and subsidiary of eBay."
 company_size: "Large"
 stack: [C++, Java, PHP]
 region: [East, Central]
