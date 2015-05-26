@@ -7,33 +7,23 @@
     <nav class="city">
         <h2>By Location</h2>
         <a href="/all">All</a>
-        <a href="/east-valley">East Valley</a>
-        <a href="/west-valley">West Valley</a>
-        <a href="/north-valley">North Valley</a>
-        <a href="/central-valley">Central Valley</a>
+        {% for object in site.data.locations %}
+            <a href="/{{object.location}}" title="">{{object.title}}</a>
+        {% endfor %}
     </nav>
 
-    <nav class="languate">
+    <nav class="language">
         <h2>By Language</h2>
         <a href="/all">All</a>
-        <a href="/javascript">JavaScript (Front-End)</a>
-        <a href="/node">Node</a>
-        <a href="/python">Python</a>
-        <a href="/ruby">Ruby</a>
-        <a href="/php">PHP</a>
-        <a href="/c-sharp">C#</a>
-        <a href="/asp">ASP.NET</a>
-        <a href="/java">Java</a>
-        <a href="/c-plus-plus">C++</a>
-        <a href="/go">Go</a>
-        <a href="/objective-c">Objective-C</a>
-        <a href="/swift">Swift</a>
+        {% for object in site.data.languages %}
+            <a href="/{{object.language}}" title="">{{object.title}}</a>
+        {% endfor %}
     </nav>
 
     <footer>
         <a class="fa fa-github" href="https://github.com/bradwestfall/webdevphoenix"></a>
         <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <a href="/jobs">Jobs</a>
         <a href="/add-company">Add a company</a>
     </footer>
 

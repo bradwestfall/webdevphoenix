@@ -1,0 +1,18 @@
+[
+    {
+    	"location": "east-valley",
+    	"title": "East Valley"
+	},
+    {
+    	"location": "west-valley",
+    	"title": "West Valley"
+	},
+    {
+    	"location": "north-valley",
+    	"title": "North Valley"
+	},
+    {
+    	"location": "central-valley",
+    	"title": "Central Valley"
+	}
+]

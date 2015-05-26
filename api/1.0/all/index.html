@@ -1,0 +1,50 @@
+---
+---
+	{% capture companies %}
+	[
+		{% for page in site.pages %}{% if page.company %}
+		    ,{
+				"name": "{{ page.company }}",
+				"lat": "{{ page.lat }}",
+				"lng": "{{ page.lng }}",
+				"url": "{{ page.url }}",
+				"startup": "{{ page.startup }}",
+				"faicon": "{{ page.fa }}",
+				"clientwork": "{{ page.client_work }}",
+				"twitter": "{{ page.twitter }}",
+				"website": "{{ page.website }}",
+				"careersite": "{{ page.job_listings }}",
+				"recruiter": "{{ page.recruiter }}",
+				"size": "{{ page.company_size }}",
+				"devteam": "{{ page.dev_team_size }}",
+				"overview": "{{ page.overview }}",
+				"region": [
+					{% for area in page.region %}
+						"{{area}}"{% if forloop.last %}{% else %}, {% endif %}
+					{% endfor %}
+				],
+				"stack": [
+					{% for language in page.stack %}
+						"{{language}}"{% if forloop.last %}{% else %}, {% endif %}
+					{% endfor %}
+				],
+				"city": [
+					{% for city in page.city %}
+						"{{city}}"{% if forloop.last %}{% else %}, {% endif %}
+					{% endfor %}
+				]
+		    }
+		{% endif %}{% endfor %}
+	]
+	{% endcapture %}
+
+{
+	"locations": {{ site.data.locations | jsonify }},
+
+	"languages" : {{ site.data.languages | jsonify }},
+	
+	"companies": {{ companies | remove_first: ','}}
+}
+
+
+
