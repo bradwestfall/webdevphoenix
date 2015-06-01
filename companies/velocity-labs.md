@@ -5,7 +5,7 @@ overview: Web development and consulting for businesses with problems to solve, 
 lat: 33.448213
 lng: -112.059274
 company_size: Small
-stack: [Ruby, Javascript]
+stack: [Ruby, Rails, Ember, JavaScript, jQuery, MySQL, Postgres, DevOps, AWS]
 region: Central
 city: Phoenix
 client_work: true
