@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Invexi
+company_name: Invexi
 overview: Web Development and Consulting
 company_size: Small
 dev_team_size: 5

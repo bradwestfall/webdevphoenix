@@ -77,5 +77,15 @@ $(function() {
             map.initialize(mapElement);
         }
 
+        /****************************************
+          Show Email
+        *****************************************/
+
+        $('.email.hide').on('click', function(e) {
+            e.preventDefault();
+            var email = $(this).data('email').replace('[at]', '@')
+            $(this).find('span').text(email);
+        });
+
     })();
 });

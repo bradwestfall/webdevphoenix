@@ -1,7 +1,7 @@
 ---
 tag: company
 layout: company_profile
-company: ComputeristSolutions
+company_name: ComputeristSolutions
 overview: Web & Mobile Development and Consulting
 lat: 33.4154808
 lng: -111.8355988

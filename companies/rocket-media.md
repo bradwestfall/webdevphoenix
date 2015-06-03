@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Rocket Media
+company_name: Rocket Media
 overview: Internet Marketing and Web Development
 company_size: Small
 dev_team_size: 5

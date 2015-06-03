@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Valore Partners
+company_name: Valore Partners
 overview: Valore Partners is a Microsoft-centric services and solutions partner, that helps companies large and small succeed in the cloud age.
 lat: 33.431316
 lng: -111.938646

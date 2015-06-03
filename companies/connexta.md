@@ -1,6 +1,6 @@
 ---
 layout: "company_profile"
-company: "Connexta"
+company_name: "Connexta"
 company_size: "Small"
 stack: [Java, JavaScript]
 region: West

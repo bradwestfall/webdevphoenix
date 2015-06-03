@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Lane Terralever
+company_name: Lane Terralever
 overview: LaneTerralever is one of the region's largest full-service marketing and advertising agencies, with over 120 employees and offices in Phoenix and Denver
 company_size: Medium
 region: East

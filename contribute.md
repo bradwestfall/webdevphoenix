@@ -11,7 +11,7 @@ Start the file with YAML variables. Note that the three hyphens are required and
 ```
 ---
 layout: company_profile
-company: XYZ Company
+company_name: XYZ Company
 overview: Web Development and Consulting
 company_size: Small
 dev_team_size: 10
@@ -46,8 +46,7 @@ Must be "company_profile"<br>
 Required: Yes
 
 
-#### company
-The company name<br>
+#### company_name
 Required: Yes
 
 

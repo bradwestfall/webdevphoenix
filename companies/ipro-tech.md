@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Ipro Tech
+company_name: Ipro Tech
 overview: Ipro Tech is a global leader in the development of enterprise software solutions within the e-discovery industry.  
 company_size: Medium
 dev_team_size: 30

@@ -2,7 +2,7 @@
 layout: null
 ---
 [
-{% for page in site.pages %}{% if page.company %}
+{% for page in site.pages %}{% if page.company_name %}
     {
       "name": "{{ page.company }}",
       "lat": "{{ page.lat }}",

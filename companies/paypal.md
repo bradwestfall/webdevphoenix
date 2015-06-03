@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: "PayPal"
+company_name: "PayPal"
 overview: "Online payments system and subsidiary of eBay."
 company_size: "Large"
 stack: [C++, Java, PHP]
@@ -13,5 +13,5 @@ startup: false
 website: "http://www.paypal.com"
 job_listings: "https://jobs.ebayinc.com/jobs?location=Arizona&brand=PayPal"
 twitter: "paypalcareers"
-fa: fa-usd
+fa: fa-paypal
 ---

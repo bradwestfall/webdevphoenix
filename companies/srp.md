@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: SRP
+company_name: SRP
 overview: The nation's third-largest public power and water utility
 company_size: Large
 stack: [HTML, CSS, JavaScript, ASP.NET, C#, MSSQL, MVC]

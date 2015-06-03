@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Integrallis
+company_name: Integrallis
 overview: We are a Web/Mobile design & development company in Scottsdale, Arizona
 company_size: Small
 dev_team_size: 8

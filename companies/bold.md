@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Bold
+company_name: Bold
 overview: Building better payments systems using Digital Currencies.
 lat: 33.4242347
 lng: -111.9387911

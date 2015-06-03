@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: TAG Employer Services
+company_name: TAG Employer Services
 overview: We are an employee solutions company helping small businesses deal with the stuff that they don't want to.
 lat: 33.674867
 lng: -112.030296

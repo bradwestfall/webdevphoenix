@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Recruiting.com
+company_name: Recruiting.com
 overview: Software as a Service,  Job Boards, and Employment Branding
 lat: 33.4638388
 lng: -111.9233478

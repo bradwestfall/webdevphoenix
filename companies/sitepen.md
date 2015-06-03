@@ -1,7 +1,7 @@
 ---
 tag: company
 layout: company_profile
-company: SitePen
+company_name: SitePen
 overview: JavaScript Webapp Development, Support, and Training
 company_size: Small
 dev_team_size: 20

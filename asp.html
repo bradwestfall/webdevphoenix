@@ -5,7 +5,7 @@ permalink: /asp/
 language: ASP.NET
 ---
 
-{% for page in site.pages %}{% if page.company %}
+{% for page in site.pages %}{% if page.company_name %}
     {% if page.stack contains 'ASP.NET' %}
         {% include browse_companies.html %}
     {% endif %}

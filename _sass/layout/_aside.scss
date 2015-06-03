@@ -17,9 +17,14 @@ aside {
         }
     }
 
+    .developers {
+        border-top: 1px solid $line-color;
+        padding-top: $gutter;
+        text-align: center;
+    }
+
     > footer {
         border-top: 1px solid $line-color;
-        margin-top: 3em;
         padding-top: 0.5em;
         text-align: center;
 

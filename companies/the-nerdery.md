@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: The Nerdery
+company_name: The Nerdery
 overview: We are a custom software design & development company.
 lat: 33.44794
 lng: -112.059263

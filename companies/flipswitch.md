@@ -1,7 +1,7 @@
 ---
 tag: company
 layout: company_profile
-company: FlipSwitch
+company_name: FlipSwitch
 overview: Online Education
 company_size: Medium
 stack: [.NET]

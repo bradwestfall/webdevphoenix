@@ -1,6 +1,6 @@
 ---
 layout: "company_profile"
-company: "GoDaddy"
+company_name: "GoDaddy"
 company_size: "Large"
 stack: [Node, JavaScript, PHP, Python, C#]
 region: [East, North]

@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Nextiva
+company_name: Nextiva
 overview: Simplifying Business Communication
 company_size: Medium
 dev_team_size: fibonacci(8)

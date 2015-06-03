@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Volo Digital
+company_name: Volo Digital
 overview: Volo Digital's mission is to build handmade, next generation, digital products that people use and love
 lat: 33.448213
 lng: -112.059274

@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: American Express
+company_name: American Express
 overview: American Express is the world's premier service company, and the largest credit card issuer by purchase volume. We're also an equal opportunity employer, made up of people from many diverse backgrounds, lifestyles and locations.
 company_size: Large
 stack: [Java, Spring, SQL, JavaScript, CSS, HTML]

@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Iced Development, LLC.
+company_name: Iced Development, LLC.
 overview: Software Consulting and Training
 company_size: Small
 dev_team_size: 6

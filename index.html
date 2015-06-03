@@ -22,7 +22,7 @@ layout: default
 <div class="map"></div>
 
 <div class="browse-companies">
-    {% for page in site.pages %}{% if page.company %}
+    {% for page in site.pages %}{% if page.company_name %}
         {% include browse_companies.html %}
     {% endif %}{% endfor %}
 </div>

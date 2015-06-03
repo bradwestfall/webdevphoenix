@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Tuft & Needle
+company_name: Tuft & Needle
 overview: We view Tuft & Needle not as a mattress company that makes software, but as a software company that sells mattresses. Help us automate everything!
 company_size: Small
 dev_team_size: 4

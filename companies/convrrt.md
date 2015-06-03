@@ -1,6 +1,6 @@
 ---
 layout: "company_profile"
-company: "Convrrt"
+company_name: "Convrrt"
 lat: 33.30778
 lng: -111.756293
 company_size: "Small"

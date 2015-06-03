@@ -1,7 +1,7 @@
 ---
 tag: company
 layout: company_profile
-company: Axosoft
+company_name: Axosoft
 lat: 33.612539
 lng: -111.89239
 stack: [C#, Java, Node]

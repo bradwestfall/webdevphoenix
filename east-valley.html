@@ -5,7 +5,7 @@ permalink: /east-valley/
 region: East
 ---
 
-{% for page in site.pages %}{% if page.company %}
+{% for page in site.pages %}{% if page.company_name %}
     {% if page.region contains 'East' %}
         {% include browse_companies.html %}
     {% endif %}

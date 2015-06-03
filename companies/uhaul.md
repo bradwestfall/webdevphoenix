@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: U-Haul
+company_name: U-Haul
 overview: Moving equipment and storage rental
 company_size: Large
 stack: [C#, ASP.NET, SQL, Angular, JavaScript, Node, Express, React, MongoDB, Objective-C, TypeScript, F#, HTML/CSS, git]

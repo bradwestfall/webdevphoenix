@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Food Services of America
+company_name: Food Services of America
 overview: One of the nation's largest broadline foodservice distributors
 company_size: Large
 stack: [HTML, CSS, JavaScript, C#, Web Services, T-SQL]

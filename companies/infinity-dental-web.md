@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Infinity Dental Web
+company_name: Infinity Dental Web
 overview: Web Development and Internet Marketing
 company_size: Small
 dev_team_size: 5

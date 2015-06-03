@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Swiftpage
+company_name: Swiftpage
 overview: Provides digital marketing and CRM solutions 
 company_size: Large
 stack: [HTML, JavaScript, ASP.NET, Web API, MongoDB]

@@ -1,7 +1,7 @@
 ---
 tag: company
 layout: company_profile
-company: AZPixels
+company_name: AZPixels
 overview: Web Development and Consulting
 lat: 33.448213
 lng: -112.059274

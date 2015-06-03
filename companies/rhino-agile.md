@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Rhino Agile
+company_name: Rhino Agile
 overview: Your custom application development team
 region: East
 client_work: true

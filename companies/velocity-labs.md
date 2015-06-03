@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Velocity Labs
+company_name: Velocity Labs
 overview: Web development and consulting for businesses with problems to solve, specializing in Ruby, Rails, and Ember applications.
 lat: 33.448213
 lng: -112.059274

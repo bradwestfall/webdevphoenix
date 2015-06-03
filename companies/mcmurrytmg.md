@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: McMurry/TMG
+company_name: McMurry/TMG
 overview: Content Marketing Agency
 lat: 33.517106
 lng: -112.059833

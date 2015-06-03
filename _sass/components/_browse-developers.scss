@@ -1,0 +1,33 @@
+.browse-developers {
+    @include vertical-rhythm($gutter);
+}
+
+.browse-developer {
+    border-bottom: 1px solid $line-color;
+    padding-bottom: 1em;
+
+    .name {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+
+    .stack {
+        display: inline-block;
+        font-weight: 600;
+        margin-left: 0.5em;
+        &::before { content: '('; }
+        &::after { content: ')'; }
+    }
+
+    .contact {
+        margin-top: 0.5em;
+        > * {
+            margin-right: 2em
+        }
+        i.fa {
+            margin-right: 0.3em;
+        }
+    }
+
+}

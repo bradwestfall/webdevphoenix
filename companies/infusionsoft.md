@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Infusionsoft
+company_name: Infusionsoft
 overview: Small business sales and marketing software
 lat: 33.2864855
 lng: -111.8874264
