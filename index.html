@@ -11,11 +11,9 @@ layout: default
 
 <h2>I need your help!</h2>
 
-<p>
-    This site was launched on <strong>Easter Sunday 2015</strong>. It's an easy way to see how many companies in Phoenix hire for web dev. It doesn't matter if the companies are currently hiring or not. It's just a list of everyone who might.
+<p class="highlight">
+    This site was launched on <strong>Easter Sunday 2015</strong>. The idea is to be a list of companies that hire web developers. Help by adding as many companies as you can, even if it's not a company you work for!
 </p>
-
-<p>Help me get it filled with companies this first week.</p>
 
 <p>See the <a href="https://github.com/bradwestfall/webdevphoenix/blob/master/contribute.md">Contribute Page</a></p>
 
@@ -23,6 +21,8 @@ layout: default
 
 <div class="map"></div>
 
-{% for page in site.pages %}{% if page.company %}
-    {% include browse_companies.html %}
-{% endif %}{% endfor %}
+<div class="browse-companies">
+    {% for page in site.pages %}{% if page.company_name %}
+        {% include browse_companies.html %}
+    {% endif %}{% endfor %}
+</div>

@@ -5,9 +5,9 @@ layout: default
 <div class="company-profile">
 
     <header class="content-header">
-        <h1>{{ page.company }}</h1>
+        <h1>{{ page.company_name }}</h1>
         <div class="actions">
-            {% if page.website %}
+            {% if page.twitter %}
                 <a class="twitter" href="http://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter"></i>{{ page.twitter }}</a>
             {% endif %}
         </div>
@@ -48,7 +48,7 @@ layout: default
     </div>
 
     {% if page.content != '' %}
-    <div class="description">
+    <div class="about">
         <h2>About Us</h2>
         {{ content | truncatewords: 500 }}
     </div>

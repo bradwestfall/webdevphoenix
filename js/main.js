@@ -17,7 +17,7 @@ $(function() {
                   div: mapElement,
                   lat: 33.4479042,
                   lng: -112.0620954,
-                  zoom: 10
+                  zoom: 9
                 });
 
                 // Plot
@@ -31,7 +31,7 @@ $(function() {
             plot: function() {
                 var self = this;
                 $.get('/companies.json', function(data) {
-
+                    
                     // An array of markers
                     var markers = [];
 
@@ -44,7 +44,7 @@ $(function() {
 
                         // Only plot companies that match the region or language
                         if (self.language && company.stack.split(',').indexOf(self.language) < 0) continue;
-                        if (self.region && company.stack.split(',').indexOf(self.region) < 0) continue;
+                        if (self.region && company.region.split(',').indexOf(self.region) < 0) continue;
 
                         // Create a marker object
                         markers.push({
@@ -76,6 +76,16 @@ $(function() {
         if (mapElement) {
             map.initialize(mapElement);
         }
+
+        /****************************************
+          Show Email
+        *****************************************/
+
+        $('.email.hide').on('click', function(e) {
+            e.preventDefault();
+            var email = $(this).data('email').replace('[at]', '@')
+            $(this).find('span').text(email);
+        });
 
     })();
 });

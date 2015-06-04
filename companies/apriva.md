@@ -1,6 +1,6 @@
 ---
 layout: company_profile
-company: Apriva
+company_name: Apriva
 overview: Point of Sale solutions for companies of all sizes, and secure mobile communications
 lat: 33.561083
 lng: -111.925399

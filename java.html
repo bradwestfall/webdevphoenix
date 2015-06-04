@@ -5,7 +5,7 @@ permalink: /java/
 language: Java
 ---
 
-{% for page in site.pages %}{% if page.company %}
+{% for page in site.pages %}{% if page.company_name %}
     {% if page.stack contains 'Java' %}
         {% include browse_companies.html %}
     {% endif %}

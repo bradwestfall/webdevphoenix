@@ -1,3 +1,12 @@
+@include wider-than(1300px) {
+    .browse-companies {
+        .browse-company {
+            display: inline-block;
+            width: calc(50% - 8px); // somewhat of a hack
+        }
+    }
+}
+
 .browse-company {
     @extend %clearfix;
     border-bottom: 1px solid $line-color;
@@ -11,23 +20,27 @@
     }   
 
     > div {
-        margin-left: 70px;
+        margin-left: 80px;
     }
 
     .company {
         font-weight: 600;
         display: inline-block;
         vertical-align: bottom;
-        font-size: 1.3em
+        font-size: 1.3em;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .description {
+        width: 100%;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         display: inline-block;
         vertical-align: bottom;
-        width: 100%;
         font-size: 0.8em;
     }
 }

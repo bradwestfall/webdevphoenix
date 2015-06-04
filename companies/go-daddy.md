@@ -1,13 +1,17 @@
 ---
 layout: "company_profile"
-company: "GoDaddy"
+company_name: "GoDaddy"
 company_size: "Large"
-stack: [Node, JavaScript]
+stack: [Node, JavaScript, PHP, Python, C#]
 region: [East, North]
-city: [Scottsdale, Tempe]
+city: [Scottsdale, Gilbert, Tempe, Phoenix]
 client_work: false
 recruiter: false
-overview: "Domains & Web Hosting"
+overview: "Publicly traded Internet domain registrar and web hosting company."
 startup: false
+twitter: "godaddyjobs"
 website: "http://www.godaddy.com"
+job_listings: "https://www.godaddy.com/careers/overview"
+lat: 33.337127
+lng: -111.894115
 ---

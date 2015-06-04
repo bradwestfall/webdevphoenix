@@ -1,0 +1,35 @@
+<div class="browse-developer">
+    <a href="{{ page.link }}" class="name">{{ page.developer_name }}</a>
+    {% if page.stack %}
+    <span class="stack">
+        {{ page.stack | join:', ' }}
+    </span>
+    {% endif %}
+    <div class="contact">
+        
+        {% if page.email %}
+            <a href="#" class="email hide" data-email="{{ page.email }}"><i class="fa fa-envelope"></i><span>Show Email</span></a>
+        {% endif %}
+    
+        {% if page.website %}
+            <a href="{{ page.website }}"><i class="fa fa-cloud"></i>website</a>
+        {% endif %}
+
+        {% if page.twitter %}
+            <a href="http://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter"></i>{{ page.twitter }}</a>
+        {% endif %}
+
+        {% if page.github %}
+            <a href="http://github.com/{{ page.github }}"><i class="fa fa-github"></i>{{ page.github }}</a>
+        {% endif %}
+
+        {% if page.linkedin %}
+            <a href="{{ page.linkedin }}"><i class="fa fa-linkedin-square"></i>LinkedIn</a>
+        {% endif %}
+
+        {% if page.co-founder-willing %}
+            <span>Willing to be a co-founder!</span>
+        {% endif %}
+
+    </div>
+</div>

@@ -5,7 +5,7 @@ permalink: /python/
 language: Python
 ---
 
-{% for page in site.pages %}{% if page.company %}
+{% for page in site.pages %}{% if page.company_name %}
     {% if page.stack contains 'Python' %}
         {% include browse_companies.html %}
     {% endif %}

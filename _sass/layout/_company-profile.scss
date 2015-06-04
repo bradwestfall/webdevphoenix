@@ -24,9 +24,16 @@
         @include vertical-rhythm($gutter);
     }
 
-    .description {
+    .about {
         clear: both;
         margin-top: $gutter;
+
+        // Incase markdown is used to make headings
+        h1, h2, h3, h4, h5, h6 {
+            color: $default-text-color;
+            margin: 1em 0;
+        }
+
     }
 
 }

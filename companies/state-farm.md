@@ -1,6 +1,6 @@
 ---
 layout: "company_profile"
-company: "State Farm"
+company_name: "State Farm"
 company_size: "Large"
 stack: [Java, JavaScript]
 region: East
