@@ -13,7 +13,6 @@
     }
 
     .stack {
-        display: inline-block;
         font-weight: 600;
         margin-left: 0.5em;
         &::before { content: '('; }
