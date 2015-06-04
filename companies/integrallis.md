@@ -4,7 +4,7 @@ company: Integrallis
 overview: We are a Web/Mobile design & development company in Scottsdale, Arizona
 company_size: Small
 dev_team_size: 8
-stack: [JavaScript, Java, Ruby, Ruby on Rails, Goovy, Grails, iOS, Android, Cassandra, CSS, HTML]
+stack: [JavaScript, Java, Ruby, Ruby on Rails, RubyMotion, Groovy, Grails, iOS, Android, Cassandra, CSS, HTML]
 region: [East]
 city: [Scottsdale]
 lat: 33.614628
