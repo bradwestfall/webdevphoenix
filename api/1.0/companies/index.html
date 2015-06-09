@@ -5,7 +5,7 @@
 [
 	{% for page in site.pages %}{% if page.company_name %}
 	    ,{
-			"name": "{{ page.company }}",
+			"name": "{{ page.company_name }}",
 			"lat": "{{ page.lat }}",
 			"lng": "{{ page.lng }}",
 			"url": "{{ page.url }}",
