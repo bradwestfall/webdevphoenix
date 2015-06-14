@@ -6,4 +6,5 @@ linkedin: https://www.linkedin.com/pub/sid-tantia/99/528/357
 email: sid[at]mailhaven.com
 github: sstgithub
 stack: [JavaScript/jQuery, CoffeeScript, Ember JS, Ruby, Ruby on Rails]
+sitemap: false # do not change unless||until individual profile pages exist.
 ---

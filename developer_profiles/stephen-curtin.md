@@ -9,4 +9,5 @@ website: http://www.scurtin.com
 twitter: curtins
 github: curtins
 stack: [CSS, JavaScript, LAMP, MongoDB, PHP, MySQL, Drupal, .NET]
+sitemap: false # do not change unless||until individual profile pages exist.
 ---

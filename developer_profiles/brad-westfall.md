@@ -9,4 +9,5 @@ website: http://azpixels.com
 twitter: bradwestfall
 github: bradwestfall
 stack: [CSS, JavaScript, PHP]
+sitemap: false # do not change unless||until individual profile pages exist.
 ---

@@ -9,4 +9,5 @@ website: http://velocitylabs.io
 twitter: SupaIrish
 github: supairish
 stack: [Ruby, Rails, Ember, JavaScript, jQuery, MySQL, Postgres, DevOps, AWS]
+sitemap: false # do not change unless||until individual profile pages exist.
 ---

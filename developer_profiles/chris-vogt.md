@@ -8,4 +8,5 @@ website: http://www.chrisvogt.me
 twitter: c1v0
 github: chrisvogt
 stack: [Linux/Unix, DevOps, PHP, JavaScript, ]
+sitemap: false # do not change unless||until individual profile pages exist.
 ---

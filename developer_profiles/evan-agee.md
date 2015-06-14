@@ -9,4 +9,5 @@ website: http://evanagee.com
 twitter: EvanAgee
 github: EvanAgee
 stack: [HTML5, CSS/SCSS/SASS, JavaScript/jQuery, PHP, MySQL, CoffeeScript, WordPress Theming and Development, Drupal Theming and Development]
+sitemap: false # do not change unless||until individual profile pages exist.
 ---
