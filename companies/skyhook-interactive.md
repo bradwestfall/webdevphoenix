@@ -14,5 +14,5 @@ startup: false
 website: https://skyhookinteractive.com
 job_listings: http://skyhookinteractive.com/contact-us/
 twitter: SkyhookInt
-fa: cc-amex
+fa: fa-wordpress
 ---
