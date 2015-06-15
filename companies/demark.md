@@ -13,4 +13,5 @@ client_work: false
 recruiter: false
 startup: false
 website: http://demark.com/
+fa: fa-cog
 ---
