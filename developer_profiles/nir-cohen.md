@@ -1,10 +1,10 @@
 layout: dev_profile
-+developer_name: Brad Westfall
-+link: http://azpixels.com
++developer_name: Nir Cohen
++link: http://thenir.com
 +co-founder-willing: false
-+linkedin: https://www.linkedin.com/pub/brad-westfall/7/228/219
-+email: brad[at]azpixels.com
-+website: http://azpixels.com
-+twitter: bradwestfall
-+github: bradwestfall
-+stack: [CSS, JavaScript, PHP]
++linkedin: https://www.linkedin.com/pub/nir-cohen/76/a1/210
++email: thenir61@gmail.com
++website: http://thenir.com
++twitter: thenir61
++github: 
++stack: [CSS, JavaScript, PHP, Java]
