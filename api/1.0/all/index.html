@@ -1,4 +1,5 @@
 ---
+sitemap: false
 ---
 	{% capture companies %}
 	[
@@ -42,9 +43,6 @@
 	"locations": {{ site.data.locations | jsonify }},
 
 	"languages" : {{ site.data.languages | jsonify }},
-	
+
 	"companies": {{ companies | remove_first: ','}}
 }
-
-
-

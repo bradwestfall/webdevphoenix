@@ -9,4 +9,5 @@ website: http://velocitylabs.io
 twitter: curtism
 github: curtis
 stack: [Ruby, Ruby on Rails, JavaScript]
+sitemap: false # do not change unless||until individual profile pages exist.
 ---

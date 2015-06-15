@@ -8,4 +8,5 @@ website: http://velocitylabs.io
 twitter: davetapley
 github: dukedave
 stack: [Ruby, Rails, JavaScript, Haskell]
+sitemap: false # do not change unless||until individual profile pages exist.
 ---

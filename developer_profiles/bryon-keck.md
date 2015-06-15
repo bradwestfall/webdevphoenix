@@ -9,4 +9,5 @@ website: http://bryonkeck.com
 twitter: vertex
 github: vertex
 stack: [CSS, JavaScript, PHP, Node]
+sitemap: false # do not change unless||until individual profile pages exist.
 ---

@@ -9,3 +9,10 @@ github_username:  bradwestfall
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - bower_components/*.html
+
+# Jekyll plugins to load
+gems:
+  - jekyll-sitemap
