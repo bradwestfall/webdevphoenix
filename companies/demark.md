@@ -5,7 +5,7 @@ overview: Market Analytics
 company_size: Small
 dev_team_size: 6
 stack: [JavaScript, Node, React, Cassandra]
-region: [North]
+region: [Central]
 city: [Scottsdale]
 lat: 33.533680
 long: -111.927473
