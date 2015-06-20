@@ -5,6 +5,12 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="author" content="Brad Westfall">
+    <meta name="og:image" content="{{ site.url }}/images/og-banner.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@bradwestfall">
+    <meta name="twitter:creator" content="@bradwestfall">
+    <meta name="twitter:image" content="{{ site.url }}/images/og-banner.png">
 
     <link rel="icon" type="image/png" href="/favicon16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/favicon128.png" sizes="128x128">
