@@ -1,6 +1,7 @@
 ---
+tag: company
 layout: company_profile
-company: Skyhook Interactive
+company_name: Skyhook Interactive
 overview: Skyhook has perfected the process for delivering high-quality, on-time, on-budget interactive development work.
 company_size: Small
 stack: [WordPress, PHP, MySQL, JavaScript, CSS, HTML]
