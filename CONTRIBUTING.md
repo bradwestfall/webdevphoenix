@@ -1,6 +1,6 @@
 # Contribute Listings
 
-Interested in contributing a developer profile? [That's another page](contributing-developer.md)
+Interested in contributing a developer profile? [That's another page](contribute-developer.md)
 
 Adding a new company listing requires the creation of markdown files and then creating a pull request. Create the markdown ".md" file in the `/companies` folder. Files must have YAML fields at the top of the file (as documented below)
 

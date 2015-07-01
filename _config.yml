@@ -14,5 +14,5 @@ exclude:
   - bower_components/*.html
 
 # Jekyll plugins to load
-gems:
-  - jekyll-sitemap
+#gems:
+#  - jekyll-sitemap
