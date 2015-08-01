@@ -1,6 +1,6 @@
 ---
 layout: dev_profile
-developer_name: John Doe
+developer_name: Chris Watson
 link: https://linkedin.com/in/nuvischriswatson
 co-founder-willing: true
 linkedin: https://linkedin.com/in/nuvischriswatson
