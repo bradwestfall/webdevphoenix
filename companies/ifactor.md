@@ -15,7 +15,7 @@ startup: false
 website: http://www.ifactorinc.com/
 job_listings: http://www.ifactorinc.com/company/careers/
 twitter: ifactor
-fa: fa-power-off fa-rotate-225
+fa: fa-power-off
 ---
 
 iFactor is a fast-growing and dynamic company that develops customer communications software, including mobile and web solutions, for the utility industry. iFactor is small enough to allow creative individuals to flourish, yet large enough to provide long-term stability.
