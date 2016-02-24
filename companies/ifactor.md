@@ -6,8 +6,8 @@ lat: 33.431165
 lng: -111.939597
 company_size: Medium
 dev_team_size: 50
-stack: [JavaScript, Java, Oracle, iOS, Angular, AWS, jQuery, Spring MVC, Android, HTML, Grunt, Maven, Docker]
-region: East
+stack: [JavaScript, Java, Oracle, Objective-C, Angular, AWS, jQuery, Spring Framework, Android, HTML, Grunt, Maven, Docker]
+region: Central
 city: [Tempe]
 client_work: true
 recruiter: false
