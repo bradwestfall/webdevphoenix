@@ -8,6 +8,6 @@ email: brad[at]azpixels.com
 website: http://azpixels.com
 twitter: bradwestfall
 github: bradwestfall
-stack: [CSS, JavaScript, PHP]
+stack: [CSS, JavaScript, Node, React, Redux, jQuery, PHP]
 sitemap: false # do not change unless||until individual profile pages exist.
 ---
