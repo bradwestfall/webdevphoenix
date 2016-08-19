@@ -1,5 +1,7 @@
 # Contribute Listings
 
+Interested in contributing a developer profile? [That's another page](contribute-developer.md)
+
 Adding a new company listing requires the creation of markdown files and then creating a pull request. Create the markdown ".md" file in the `/companies` folder. Files must have YAML fields at the top of the file (as documented below)
 
 ### Example Company Listing
@@ -29,9 +31,11 @@ twitter: johndoe
 fa: fa-cloud
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum, numquam fugit vitae rerum.
+Here's where you can describe your company in paragraph format...
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad numquam quaerat assumenda inventore similique.
+Use two hard-returns to create a new paragraph element in the HTML...
+
+At the end of the day, it's all just markdown
 ```
 
 The company description area (below the YAML) is markdown format. Links are allowed but no other markup/markdown will be accepted. Content will be truncated at 500 characters.
