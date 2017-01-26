@@ -18,4 +18,4 @@ twitter: tallwave
 fa: fa-space-shuttle
 ---
 
-Tallwave helps businesses build great products through our services.
+Tallwave helps businesses build great products through our design, development, and marketing services.
