@@ -14,6 +14,7 @@ startup: false
 website: https://pagely.com
 job_listings: https://pagely.breezy.hr/
 twitter: pagely
+fa: fa-wordpress
 ---
 
 We help big brands scale WordPress.
