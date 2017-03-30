@@ -4,7 +4,7 @@ company_name: Pagely
 overview: Wordpress Hosting
 company_size: Small
 stack: [JavaScript, PHP]
-region: [Remote]
+region: [Central]
 city: [Phoenix]
 lat: 33.440515
 lng: -112.066764
