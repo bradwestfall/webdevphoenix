@@ -15,7 +15,7 @@ startup: false
 website: https://www.retailmenot.com
 job_listings: https://www.retailmenot.com/corp/careers/
 twitter: RetailMeNot
-fa: fa-usd
+fa: fa-shopping-cart
 ---
 
 The Phoenix office for RetailMeNot focuses mainly on the gift card end of the business (formally [Gift Card Zen](http://giftcardzen.com)). 
