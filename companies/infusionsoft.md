@@ -6,7 +6,7 @@ lat: 33.2864855
 lng: -111.8874264
 company_size: Medium
 dev_team_size: 50
-stack: [Polymer, JavaScript, Java, MySQL, Cassandra]
+stack: [Vue.js, React Native, JavaScript, Java, MySQL, Cassandra]
 region: East
 city: [Chandler]
 client_work: false
